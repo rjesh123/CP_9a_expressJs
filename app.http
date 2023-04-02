@@ -1,0 +1,20 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "rajesh_boddu",
+  "name": "Rajesh Boddu",
+  "password": "rajesh_111",
+  "gender": "male",
+  "location": "Hyderabd"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "rajesh_boddu",
+  "password": "rajesh_111"
+}
